@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisargaban (Wayal Farms)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e3e2df;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 5px #000;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #e3e2df;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+    <script>
+        // Initialize and display the map
+        function initMap() {
+            // Specify coordinates for the center of the map
+            var myLatLng = {lat: -34.397, lng: 150.644};
+
+            // Create a new map object and specify the map container
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: myLatLng,
+                zoom: 8 // Specify initial zoom level
+            });
+
+            // Optionally, add markers or other map features here
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Nisargaban (Wayal Farms)</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero" id="home">
+        <h2>Experience Serenity Amidst Nature</h2>
+    </div>
+    <div class="content" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Nisargaban Resort, your eco-friendly retreat in the heart of nature. <br>Our farm offers comfortable dome accommodations and a range of activities to help you reconnect with the environment.</p>
+        <p>Address: Gholap Wasti,Belhe Jejuri highway,<br>Pondewadi,Tal.Ambegao,</br>District Pune.</p>
+    </div>
+    <div class="content" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="pic1 (1).jpeg"alt="Farm Image 1">
+            <img src="pic1 (2).jpeg" alt="Farm Image 2">
+            <img src="pic1 (3).jpeg" alt="Farm Image 3">
+            <img src="pic1 (4).jpeg" alt="Farm Image 4">
+            <img src="pic1 (5).jpeg" alt="Farm Image 5">
+            <img src="pic1 (6).jpeg" alt="Farm Image 6">
+            <img src="pic1 (7).jpeg" alt="Farm Image 7">
+            <img src="pic1 (8).jpeg" alt="Farm Image 8">
+            <img src="pic1 (9).jpeg" alt="Farm Image 9">
+            <img src="pic1 (10).jpeg" alt="Farm Image 10">
+            <img src="pic1 (11).jpeg" alt="Farm Image 11">
+            
+        
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+    <div class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>(phone)Pratk Bhor:9595908053</p>
+        <p>(phone) Swati Wayal:9960524691 </p>
+        <p>(phone) Ravindra Wayal:9892902001</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="map">
+            <div id="map">
+                <iframe 
+                    src= "https://www.google.com/maps/place/wayal+farms/@18.9333973,74.1362778,15.97z/data=!4m6!3m5!1s0x3bdd2bb0d57aaaab:0x6a1ef944a9abf07b!8m2!3d18.9332482!4d74.1400431!16s%2Fg%2F11v0bp8n2g?entry=ttu"
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            
+            <!-- Embed Google Map here -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nisargaban Resort . All rights reserved.</p>
+        <p> Follow us on nisargbanresort.wayalagro</p>
+    </footer>
+</body>
+</html>
+

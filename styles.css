@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a8dadc; /* Light blue */
+    padding: 20px;
+    text-align: center;
+    color: #1d3557; /* Dark blue */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #457b9d; /* Medium blue */
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f1faee; /* Off white */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e63946; /* Red */
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+    font-size: 2em;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background-color: #f1faee; /* Off white */
+}
+
+h2 {
+    color: #1d3557; /* Dark blue */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 2px solid #457b9d; /* Medium blue */
+}
+
+footer {
+    background-color: #a8dadc; /* Light blue */
+    text-align: center;
+    padding: 10px 0;
+    color: #1d3557; /* Dark blue */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    color: #1d3557; /* Dark blue */
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #457b9d; /* Medium blue */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #457b9d; /* Medium blue */
+    color: #f1faee; /* Off white */
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1d3557; /* Dark blue */
+}
+
+#map {
+    margin-top: 20px;
+    text-align: center;
+}
